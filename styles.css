@@ -1,0 +1,74 @@
+        .img {
+            background-size: 200px 100px;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 505px;
+            padding: 1px;
+            margin-top: 0%;
+        }
+        
+        .hero-text {
+            background-image: url('C:\Users\jesse the jerkface\Desktop\code acadmey\Katie & Jesse Project\fish on photos\vidar-nordli-mathisen-yJKb_4vjYwA-unsplash.jpg');
+            float: left;
+        }
+        
+        .breadcrumb {
+            text-align: right;
+        }
+        
+        .breadcrumb>li {
+            display: inline;
+            clear: right;
+            float: right;
+        }
+        
+        .breadcrumb li+li::before {
+            padding: 10px;
+            content: "  ";
+        }
+        
+        .breadcrumb a {
+            -moz-text-decoration-style: dashed;
+            background: darkcyan;
+            color: whitesmoke;
+        }
+        
+        .breadcrumb a:hover {
+            color: rgb(10, 5, 5);
+        }
+        
+        .item {
+            text-align: center;
+            font-size: auto;
+            font-family: 'Roboto', sans-serif;
+            background-color: rgb(128, 204, 240);
+        }
+        
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: auto;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            position: relative;
+        }
+        
+        .fa_social {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            width: auto;
+            float: right;
+        }
+        
+        .location {
+            float: left;
+            text-align: center;
+            bottom: 0;
+            padding: .5px;
+            position: absolute;
+            font-size: 10px;
+            line-height: 10%;
+            position: relative;
+        }
